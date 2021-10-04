@@ -4,6 +4,7 @@
 .btn {
   background: #fff;
 }
-.btn-large{
-   width: 100%;
+.btn-large {
+  width: 100%;
+  border: 1px solid #000000;
 }
