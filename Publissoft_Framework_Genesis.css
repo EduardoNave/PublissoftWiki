@@ -11,8 +11,6 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
       --yellow: #ffff00;
 }
 
-
-
 /* ==================
    * COMPONENTS *
 ================== */
@@ -22,11 +20,9 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
   border-radius: .3em;
 }
 
-
 /* ==================
       * GRID *
 ================== */
-
 .grid {
   display: grid;
   gap: 1em;
@@ -45,7 +41,6 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 .col-10 { grid-template-columns: repeat(10, 1fr); }
 .col-11 { grid-template-columns: repeat(11, 1fr); }
 .col-12 { grid-template-columns: repeat(12, 1fr); }
-
 
 /* Medium columns - Tablets */
 @media only screen and (max-width: 922px){
