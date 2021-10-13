@@ -208,10 +208,12 @@ p, .entry-content p { font-size: 1.2em; }
    * COMPONENTS *
 ================== */
 .card{
-  padding: 1em;
-  background: var(--white);
-  border: 1px solid var(--black);
-  border-radius: .3em;
+      background-color: white;
+      border-radius: 6px;
+      box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+      color: #141c3a;
+      display: flex;
+      padding: 1.25rem;
 }
 
 /* hidden mobile */
