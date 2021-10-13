@@ -220,6 +220,9 @@ p, .entry-content p { font-size: 1.2em; }
 /* ==================
    * TYPOGRAPHY *
 ================== */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
 .italic { font-style: italic;}
 .uppercase { text-transform: uppercase; }
 .lowercase { text-transform: lowercase; }
