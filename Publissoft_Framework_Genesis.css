@@ -46,6 +46,13 @@ p, .entry-content p { font-size: 1.2em; }
       margin: .5em auto;
       overflow: hidden;
 }
+
+/* ==================
+   * POSITIONS *
+================== */
+.relative { position: relative; }
+.absolute { position: absolute; }
+
 /* ==================
  * MARGIN / PADDING *
 ================== */
