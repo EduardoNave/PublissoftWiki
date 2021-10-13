@@ -40,7 +40,7 @@ p, .entry-content p { font-size: 1.2em; }
 /* ==================
    * CONTAINERS *
 ================== */
-.container { max-width: 100%; width: 100%; margin: 0 auto; }
+.container { max-width: 100%; width: auto; margin: 0 auto; padding: 2em;}
 .container-lg, .container-md, .container-sm {
       padding: .8em;
       margin: .5em auto;
@@ -439,6 +439,10 @@ p, .entry-content p { font-size: 1.2em; }
 
       /* font size body large screen */
       body, body.text-md { font-size: 16px; }
+
+      /* visible desktop */
+      .lg\:flex { display: flex; }
+
       .container { max-width: 960px; }
 
       /* grid large screen */
