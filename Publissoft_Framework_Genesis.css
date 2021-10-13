@@ -40,6 +40,7 @@ p, .entry-content p { font-size: 1.2em; }
 /* ==================
    * CONTAINERS *
 ================== */
+.container { max-width: 1344px; width: 100%; margin:0 auto; }
 .container-lg, .container-md, .container-sm {
       padding: .8em;
       margin: .5em auto;
@@ -254,6 +255,7 @@ p, .entry-content p { font-size: 1.2em; }
       * FLEX *
 ================== */
 .flex { display: flex; }
+.direction-column { flex-direction: column; }
 
 /*- justify content -*/
 .justify-center { justify-content: center; }
