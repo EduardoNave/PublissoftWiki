@@ -16,11 +16,11 @@ body, body.text-md {
      font-family: inherit;
       margin: 0.67em 0;
 }
-h1, .entry-content h1 { font-size: 3em; }
-h2, .entry-content h2 { font-size: 2.5em; }
-h3, .entry-content h3 { font-size: 2em; }
-h4,.entry-content h4 { font-size: 1.5em; }
-h5, .entry-content h5 { font-size: 1.25em; }
+h1, .entry-content h1 { font-size: 2.5em; }
+h2, .entry-content h2 { font-size: 2.3em; }
+h3, .entry-content h3 { font-size: 1.5em; }
+h4,.entry-content h4 { font-size: 1.2em; }
+h5, .entry-content h5 { font-size: 1.1em; }
 h6, .entry-content h6 { font-size: 1em; }
 
 p, .entry-content p { font-size: 1.2em; }
