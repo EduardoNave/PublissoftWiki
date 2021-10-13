@@ -40,7 +40,7 @@ p, .entry-content p { font-size: 1.2em; }
 /* ==================
    * CONTAINERS *
 ================== */
-.container { max-width: 1344px; width: 100%; margin:0 auto; }
+.container { max-width: 100%; width: 100%; margin: 0 auto; }
 .container-lg, .container-md, .container-sm {
       padding: .8em;
       margin: .5em auto;
@@ -338,7 +338,7 @@ p, .entry-content p { font-size: 1.2em; }
 .row-span-12 { grid-row: span 12; }
 
 /* sm - small screen */
-@media only screen and (min-width: 640px) {
+@media screen and (min-width: 640px) {
 
       /* font size body small screen */
       body, body.text-md { font-size: 14px; }
@@ -385,7 +385,7 @@ p, .entry-content p { font-size: 1.2em; }
 }
 
  /* md - medium screen */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
       /* visible desktop */
       .md\:flex { display: flex; }
@@ -432,10 +432,11 @@ p, .entry-content p { font-size: 1.2em; }
 }
 
 /* lg - large screen -*/
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 
       /* font size body large screen */
       body, body.text-md { font-size: 16px; }
+      .container { max-width: 960px; }
 
       /* grid large screen */
       .lg\:col-1 { grid-template-columns: repeat(1, 1fr); }
@@ -476,4 +477,11 @@ p, .entry-content p { font-size: 1.2em; }
       .lg\:row-span-10 { grid-row: span 10; }
       .lg\:row-span-11 { grid-row: span 11; }
       .lg\:row-span-12 { grid-row: span 12; }
+}
+
+@media screen and (min-width: 1216px){
+      .container { max-width: 1152px; }
+}
+@media  screen and (min-width: 1408px) {
+      .container {  max-width: 1344px;}
 }
