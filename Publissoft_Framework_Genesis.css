@@ -50,7 +50,8 @@ h6,
 
 p,
 .entry-content p {
-  font-size: 1.15em;
+  font-size: 1.059em;
+  line-height: 1.5em;
 }
 
 /* ==================
@@ -69,6 +70,7 @@ p,
 /* ==================
    * CONTAINERS *
 ================== */
+.entry-content .container .wrap,
 .container {
   max-width: 100%;
   width: auto;
@@ -288,6 +290,9 @@ p,
 }
 
 /* margin x */
+.margin-x0\.5 {
+  margin: 0.5em 0;
+}
 .margin-x1 {
   margin: 0 1em;
 }
@@ -314,6 +319,9 @@ p,
 }
 
 /* margin y */
+.margin-y0\.5 {
+  margin: 0.5em 0;
+}
 .margin-y1 {
   margin: 1em 0;
 }
@@ -556,17 +564,20 @@ p,
 /* ==================
    * COMPONENTS *
 ================== */
-.card {
+.card,
+.card-border_none {
   display: flex;
   background-color: var(--white);
-  border-radius: 12px;
-  box-shadow: 0 5px 5px 0 rgb(0 0 0 / 5%), 0 0 0 1px #eee;
   color: var(--black);
   border: 1px solid var(--transparent);
   transition: 0.3s linear;
 }
+.card {
+  border: 1px solid #eee;
+}
+.card-border_none:hover,
 .card:hover {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 5%);
   transition: 0.3s linear;
 }
 
@@ -1357,6 +1368,7 @@ p,
   }
 
   /* container large screen */
+  .entry-content .container .wrap,
   .container {
     max-width: 960px;
   }
@@ -1478,12 +1490,14 @@ p,
 
 @media screen and (min-width: 1216px) {
   /* container large-l screen */
+  .entry-content .container .wrap,
   .container {
     max-width: 1152px;
   }
 }
 @media screen and (min-width: 1408px) {
   /* container large-xl screen */
+  .entry-content .container .wrap,
   .container {
     max-width: 1344px;
   }
